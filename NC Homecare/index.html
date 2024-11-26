@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>nc-homecare</title>
+    <meta content="Homecare Services" name="description">
+    <meta content="homecare, services, healthcare" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="./css/boxicons.min.css" rel="stylesheet">
+    <link href="./css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <style>
+        /* Additional Styles for Modern Look */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+            background: #343a40;
+            color: white;
+        }
+
+        header .logo a {
+            color: #ff6f61;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav ul li a {
+            color: white;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        header nav ul li a:hover {
+            color: #ff6f61;
+        }
+
+        .carousel-item {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .carousel-container {
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .carousel-container h2 {
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        .carousel-container p {
+            font-size: 18px;
+        }
+
+        .about .content {
+            padding: 40px;
+            background: #f7f7f7;
+            border-radius: 8px;
+        }
+
+        .portfolio .portfolio-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .portfolio .portfolio-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-info h4 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .portfolio-info p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .get-started-btn {
+            background-color: #ff6f61;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .get-started-btn:hover {
+            background-color: #e65c4e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+            <h1 class="logo"><a href="/">NC HOMECARE</a></h1>
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./pages/service.html">Services</a></li>
+                    <li><a href="./pages/hirestaff.html">Hire Staff</a></li>
+                    <li><a href="./pages/jobs.html">Job</a></li>
+                    <li><a href="./pages/aboutus.html">About Us</a></li>
+                    <li><a href="./pages/contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="./pages/login.html" class="get-started-btn ml-auto">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="background-image: url(../media/slide-1.png)">
+                    <div class="carousel-container">
+                        <div class="container">
+                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>NC HOMECARE</span></h2>
+                            <p class="animate__animated animate__fadeInUp">Your health, our priority.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(../media/slide-2.png)">
+                    <div class="carousel-container">
+                        <div class="container">
+                            <h2 class="animate__animated animate__fadeInDown">Exceptional Care, Anytime, Anywhere</h2>
+                            <p class="animate__animated animate__fadeInUp">We provide top-notch homecare services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(../media/slide-3.png)">
+                    <div class="carousel-container">
+                        <div class="container">
+                            <h2 class="animate__animated animate__fadeInDown">Trustworthy & Compassionate</h2>
+                            <p class="animate__animated animate__fadeInUp">Caring for you, as part of our family.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row content">
+                <div class="col-lg-6">
+                    <h2>Our Commitment to Your Care</h2>
+                    <h3>We prioritize health, trust, and well-being in everything we do.</h3>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0">
+                    <p>At NC Homecare, we aim to be a leading provider of personalized, professional homecare services. We focus on compassionate, research-driven care that ensures your well-being and satisfaction at all times.</p>
+                    <ul>
+                        <li><i class="ri-check-double-line"></i> Personalized homecare plans</li>
+                        <li><i class="ri-check-double-line"></i> 24/7 availability of healthcare professionals</li>
+                    </ul>
+                    <p class="font-italic">We are dedicated to meeting your needs, delivering the best care, and helping you achieve a healthy lifestyle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-web">Completed Projects</li>
+                        <li data-filter=".filter-app">Uncompleted Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <!-- Portfolio Items -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Completed Project</h4>
+                            <p>High-Quality Homecare Service</p>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-1.jpg" data-lightbox="portfolio" title="Portfolio 1"><i class="bx bx-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Uncompleted Project</h4>
+                            <p>Improved Healthcare System</p>
+                            <div class="portfolio-links">
+                                <a href="assets/img/portfolio/portfolio-2.jpg" data-lightbox="portfolio" title="Portfolio 2"><i class="bx bx-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container d-md-flex py-4">
+            <div class="mr-md-auto text-center text-md-left">
+                <p>&copy; 2024 NC Homecare. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vendor JS Files -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>NC Homecare - Services</title>
+    <meta content="Homecare services, healthcare solutions" name="description">
+    <meta content="healthcare, services, homecare" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,700|Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="../css/boxicons.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        #header {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        .nav-menu a {
+            color: white;
+            padding: 10px 20px;
+            text-transform: uppercase;
+        }
+
+        .nav-menu a:hover {
+            background-color: #2980b9;
+            transition: 0.3s;
+        }
+
+        #hero {
+            position: relative;
+            height: 100vh;
+            background: url('../media/slide-1.png') no-repeat center center/cover;
+        }
+
+        .carousel-item {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .carousel-container {
+            text-align: center;
+            color: #fff;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .carousel-container h2 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            animation: fadeInDown 2s ease-in-out;
+        }
+
+        .carousel-container p {
+            font-size: 1.25rem;
+            margin-bottom: 30px;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        .btn-get-started {
+            font-size: 1.2rem;
+            padding: 10px 30px;
+            border-radius: 30px;
+            background-color: #2980b9;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .btn-get-started:hover {
+            background-color: #1c5a7e;
+            transform: scale(1.05);
+        }
+
+        .carousel-control-prev, .carousel-control-next {
+            font-size: 2rem;
+            color: #fff;
+        }
+
+        .service-container {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card i {
+            font-size: 2rem;
+            color: #2980b9;
+            margin-bottom: 10px;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        @media (max-width: 767px) {
+            .carousel-container h2 {
+                font-size: 2rem;
+            }
+
+            .carousel-container p {
+                font-size: 1rem;
+            }
+
+            .service-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+            <h1 class="logo"><a href="/">NC HOMECARE</a></h1>
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./pages/service.html">Services</a></li>
+                    <li><a href="./pages/hirestaff.html">Hire Staff</a></li>
+                    <li><a href="./pages/jobs.html">Job</a></li>
+                    <li><a href="./pages/aboutus.html">About Us</a></li>
+                    <li><a href="./pages/contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="./pages/login.html" class="get-started-btn ml-auto">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url(../media/slide-1.png)">
+                    <div class="carousel-container">
+                        <h2 class="animate__animated animate__fadeInDown">Welcome to <span>NC HOMECARE</span></h2>
+                        <p class="animate__animated animate__fadeInUp">Providing compassionate and high-quality homecare services tailored to your loved ones’ needs.</p>
+                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url(../media/slide-2.png)">
+                    <div class="carousel-container">
+                        <h2 class="animate__animated animate__fadeInDown">Comprehensive Healthcare Services</h2>
+                        <p class="animate__animated animate__fadeInUp">Delivering healthcare solutions that prioritize comfort, dignity, and health for all ages.</p>
+                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url(../media/slide-3.png)">
+                    <div class="carousel-container">
+                        <h2 class="animate__animated animate__fadeInDown">Affordable and Reliable</h2>
+                        <p class="animate__animated animate__fadeInUp">We ensure access to essential healthcare services that fit your budget and needs.</p>
+                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Explore Services</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title text-center">Our Homecare Services</h2>
+            <p class="text-center">We offer a wide range of homecare services that are designed to meet the unique needs of every individual.</p>
+            <div class="service-container">
+                <div class="service-card">
+                    <i class="icofont-doctor"></i>
+                    <h3>Medical Care</h3>
+                    <p>Our trained healthcare professionals provide in-home medical care including wound care, monitoring vitals, and medication management.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icofont-hospital"></i>
+                    <h3>Post-Surgery Care</h3>
+                    <p>We offer personalized post-surgery care plans to help you recover comfortably at home after your procedure.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icofont-baby"></i>
+                    <h3>Pediatric Care</h3>
+                    <p>We provide specialized pediatric care to ensure your children receive the best support and attention at home.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icofont-users"></i>
+                    <h3>Elderly Care</h3>
+                    <p>Our compassionate caregivers offer assistance to elderly individuals, ensuring safety, comfort, and support in their daily routines.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icofont-heart"></i>
+                    <h3>Chronic Condition Management</h3>
+                    <p>We assist with managing chronic conditions such as diabetes, heart disease, and respiratory issues through regular monitoring and care.</p>
+                </div>
+                <div class="service-card">
+                    <i class="icofont-life-buoy"></i>
+                    <h3>Respite Care</h3>
+                    <p>We provide short-term relief for caregivers by offering professional care to your loved ones, allowing you time to rest and recharge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center">
+        <div class="container">
+            <p>&copy; 2024 NC Homecare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Vendor JS Files -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
