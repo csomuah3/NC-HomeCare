@@ -9,7 +9,7 @@ if (!isset($_SESSION['user_id'])) {
 $host = 'localhost';
 $username = 'root';
 $password = '';
-$database = 'nc_homecare';
+$database = 'webtech_fall2024_chelsea_somuah';
 
 $connection = new mysqli($host, $username, $password, $database);
 
