@@ -2,7 +2,7 @@
 $servername = "localhost";  
 $username = "root"; 
 $password = ""; 
-$dbname = "nc_homecare"; 
+$dbname = "webtech_fall2024_chelsea_somuah"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
