@@ -1,0 +1,178 @@
+/* Global Styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(218, 50%, 91%);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Screen Container */
+.screen-1 {
+    background: hsl(231, 62%, 94%);
+    padding: 0.6em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em hsl(231, 62%, 94%);
+    width: 100%;
+    align-items: center;
+    height: auto;
+}
+
+/* Input Fields Section */
+.screen-1 .firstname,
+.screen-1 .lastname,
+.screen-1 .email,
+.screen-1 .phonenumber,
+.screen-1 .password {
+    background: #fff;
+    box-shadow: 0 0 2em hsl(231, 62%, 94%);
+    padding: 0.8em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: hsl(0, 0%, 30%);
+    margin-bottom: 1.5em;
+    width: 100%; /* Ensure full width */
+}
+
+
+/* Input Fields and Icon Layout */
+.screen-1 .sec-2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 0.2em;
+    border-radius: 20px;
+    background: #fff;
+    gap: 0.2em;
+    width: 100%; /* Ensure full width of the parent container */
+}
+
+.screen-1 .sec-2 ion-icon {
+    font-size: 1.2rem; /* Adjusted icon size */
+    color: hsl(0, 0%, 30%);
+}
+
+.screen-1 input {
+    flex-grow: 1; /* Ensures input takes the remaining space */
+    border: none;
+    font-size: 1em;
+    padding: 0.7em; /* Adjust padding for balance */
+    outline: none;
+    width: 100%; /* Ensure input spans full width */
+}
+
+/* Label and Input Styles */
+.screen-1 label {
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+.screen-1 input::placeholder {
+    color: hsl(0, 0%, 0%);
+    font-size: 0.9em;
+}
+
+/* Icon Styles */
+ion-icon {
+    color: hsl(0, 0%, 30%);
+    margin-bottom: -0.2em;
+}
+
+/* Sign Up Button */
+.signup {
+    padding: 1em;
+    background: hsl(233, 36%, 38%);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1.5em; /* Adjusted margin for spacing */
+    text-align: center;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+.signup:hover {
+    background: hsl(233, 36%, 48%);
+}
+.login {
+    padding: 1em;
+    background: hsl(233, 36%, 38%);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1.5em; /* Adjusted margin for spacing */
+    text-align: center;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+.login:hover {
+    background: hsl(233, 36%, 48%);
+}
+/* Footer Section */
+.footer {
+    display: flex;
+    font-size: 0.7em;
+    color: hsl(0, 0%, 37%);
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.footer span {
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+
+/* Responsive Design */
+
+/* For small devices (mobile) */
+@media (max-width: 480px) {
+    .screen-1 {
+        padding: 1.2em;
+        max-width: 90%;
+    }
+    .footer {
+        font-size: 0.8em;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+    }
+}
+
+/* For medium devices (tablets) */
+@media (max-width: 768px) {
+    .screen-1 {
+        padding: 2em;
+        max-width: 75%;
+    }
+}
+
+/* For large devices (desktops) */
+@media (min-width: 1024px) {
+    .screen-1 {
+        max-width: 500px;
+        padding: 2.5em;
+    }
+}
